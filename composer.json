@@ -1,0 +1,25 @@
+{
+	"name": "mclxly/tencentyun-cos-php",
+	"description": "A package based on cos-php-sdk-v4",
+	"keywords": [
+        "qcloud", "cos", "php"
+    ],
+    "license": "MIT",
+    "version": "dev-master",    
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "colin",
+			"email": "legoo8@qq.com"
+		}
+	],
+	"autoload": {
+        "psr-4": {
+            "QCloud\\Cos\\": "src/qcloud/cos/"
+        },
+        "files": ["include.php"]
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
